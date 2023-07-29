@@ -1,0 +1,1 @@
+recursive-include PrerunPromptInstall/setup/ *.sh
