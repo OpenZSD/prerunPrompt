@@ -26,7 +26,7 @@ def mainFunc():
     args = parser.parse_args()
 
     res = None
-    print(args.s[0].lower())
+
     if(args.s[0].lower() == "fullscreen"):
         res = getScreenResolution()
     else:
